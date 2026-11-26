@@ -81,8 +81,8 @@ There's no installer. You compile one file with the C# compiler included in Wind
 
 1. Download or clone this repository.
    ```powershell
-   git clone https://github.com/<your-username>/<this-repo>.git
-   cd <this-repo>
+   git clone https://github.com/zulfadlyy/taskbar-timer.git
+   cd taskbar-timer
    ```
 2. Build it by double-clicking **`build.cmd`**, or run:
    ```powershell
