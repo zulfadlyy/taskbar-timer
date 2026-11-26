@@ -16,6 +16,7 @@ A lightweight countdown timer for Windows 11 that lives **in the taskbar**. Runn
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
+- [Download](#download)
 - [Building and running](#building-and-running)
 - [How to use it](#how-to-use-it)
 - [Settings](#settings)
@@ -24,6 +25,7 @@ A lightweight countdown timer for Windows 11 that lives **in the taskbar**. Runn
 - [Where your data is stored](#where-your-data-is-stored)
 - [Known limitations](#known-limitations)
 - [Uninstalling](#uninstalling)
+- [License](#license)
 
 ---
 
@@ -72,6 +74,20 @@ A lightweight countdown timer for Windows 11 that lives **in the taskbar**. Runn
 - **Windows 11.** Windows 10 should mostly work, but the taskbar placement was designed and tested on Windows 11.
 - **.NET Framework 4.x.** This is built into Windows 10 and 11, so there's nothing to install.
 - The taskbar must be **horizontal** (the Windows 11 default).
+
+---
+
+## Download
+
+The quickest way to get started is to download the ready-made app:
+
+1. Go to the **[latest release](https://github.com/zulfadlyy/taskbar-timer/releases/latest)** and download **`TaskbarTimer.exe`**.
+2. Put it in a permanent folder (for example `Documents\TaskbarTimer`) and double-click it.
+
+There's nothing to install. It's a single file, under 100 KB.
+
+> [!NOTE]
+> The `.exe` isn't code-signed, so Windows SmartScreen may say *"Windows protected your PC"* the first time you run it. Click **More info → Run anyway**. If you'd rather not trust a downloaded `.exe`, build it yourself from the source as described below. It takes a few seconds, and you can read every line first.
 
 ---
 
@@ -288,6 +304,12 @@ Running timers are **not** saved. They end if you exit the app or restart the PC
 1. Right-click the taskbar pills or tray icon and choose **Exit**.
 2. If you turned on *Start with Windows*, untick it first, or delete the `TaskbarTimer` value under `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`.
 3. Delete `TaskbarTimer.exe` and the folder `%APPDATA%\TaskbarTimer`.
+
+---
+
+## License
+
+Released under the [MIT License](LICENSE). You're free to use, copy, modify and share it, including commercially, as long as you keep the copyright and license notice. It comes with no warranty.
 
 ---
 
